@@ -111,3 +111,19 @@ body { padding-top: 50px; }
 #langues .container { display: flex; flex-direction: row; justify-content: space-between; }
 #langues .langue, #langues .niveau{ font-size: 1.3em; }
 #langues .langue { padding-top: 3px; }
+
+/******************************************
+* Passions 
+******************************************/
+#passion .container {
+    display: flex; flex-direction: row; justify-content: space-between; }
+#passion .container .libelle { font-size: 1.3em; }
+#passion .container .classement {
+    background: scroll transparent url(images/Red-Rating-Stars.png) no-repeat;
+    width: 160px; height: 27px; }
+#passion .container .classement0 { background-position: 0 -142px; }
+#passion .container .classement1 { background-position: 0 -112px; }
+#passion .container .classement2 { background-position: 0 -84px; }
+#passion .container .classement3 { background-position: 0 -56px; }
+#passion .container .classement4 { background-position: 0 -28px; }
+#passion .container .classement5 { background-position: 0 0px; }
